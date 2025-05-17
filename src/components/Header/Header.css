@@ -1,0 +1,31 @@
+#header {
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 40px;
+    align-self: stretch;
+    background: #e8e8ed;
+}
+
+#logo {
+    height: 60px;
+    padding: 10px 0px;
+    gap: 10px;
+}
+
+#logo h3 {
+    color: #125a8e;
+    font-family: "Roboto Flex";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#logo h4 {
+    color: #000;
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
