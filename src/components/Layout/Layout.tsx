@@ -1,4 +1,4 @@
-import Header from "../Header/Header";
+import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { Outlet } from "react-router-dom";
 import "./Layout.css";
@@ -6,7 +6,7 @@ import "./Layout.css";
 export default function Layout() {
   return (
     <>
-      <Header />
+      <Navbar />
       <Outlet />
       <Footer />
     </>

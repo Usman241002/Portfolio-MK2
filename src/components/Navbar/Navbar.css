@@ -1,3 +1,33 @@
+#header {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.625rem 2.5rem;
+    align-self: stretch;
+    background: #e8e8ed;
+}
+
+#logo {
+    height: 3.75rem;
+    padding: 0.625rem 0rem;
+    gap: 0.625rem;
+}
+
+#logo h3 {
+    color: #125a8e;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#logo h4 {
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,20 +35,24 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 li {
     display: flex;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 li a {
-    text-decoration: none;
     color: #000000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
 
 li a.active {

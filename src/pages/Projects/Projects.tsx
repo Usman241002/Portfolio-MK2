@@ -1,9 +1,8 @@
-import { Outlet } from "react-router-dom";
+import "./Projects.css";
 
 export default function Home() {
   return (
     <>
-      <Outlet />
       <h1>Projects</h1>
     </>
   );

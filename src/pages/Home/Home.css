@@ -1,0 +1,129 @@
+#hero {
+    background-color: #125a8e;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0rem 2.5rem;
+}
+
+#hero-contents {
+    padding: 0.625rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+
+#hero-text {
+    padding: 0.625rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#hero-text h2 {
+    color: #fff;
+    font-family: "Share Tech";
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#hero-text h1 {
+    color: #fff;
+    font-size: 8.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#hero-text h3 {
+    color: #fff;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#hero-buttons {
+    padding: 0.625rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+
+#view-projects {
+    background: #e8e8ed;
+    color: #125a8e;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+#about-me {
+    border: 1px solid #fff;
+    background: #125a8e;
+    color: #fff;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button {
+    padding: 0.625rem 1.5625rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 0.625rem;
+}
+
+#hero-profile {
+    width: 21.875rem;
+    height: 21.875rem;
+    border-radius: 100%;
+    border: 0.625rem solid #fff;
+    background: #d9d9d9;
+}
+
+#featured-projects-body {
+    padding: 3.75rem 2.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    align-self: stretch;
+}
+
+#featured-projects-body h3 {
+    display: flex;
+    padding: 0.625rem 0rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    color: #125a8e;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#featured-projects {
+    padding: 0.625rem 0rem;
+    justify-content: space-between;
+    align-content: center;
+    row-gap: 3.125rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+#view-all-projects {
+    width: 15.625rem;
+    height: 3.75rem;
+    justify-content: center;
+    align-items: center;
+    background: #125a8e;
+    color: #fff;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
