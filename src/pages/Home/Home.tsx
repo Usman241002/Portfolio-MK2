@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./Home.css";
 
 export default function Home() {
@@ -14,12 +16,16 @@ export default function Home() {
             </h3>
           </section>
           <div id="hero-buttons" className="flex-container">
-            <button id="view-projects" className="flex-container button">
+            <Link
+              to="/projects"
+              id="view-projects"
+              className="flex-container button"
+            >
               View Projects
-            </button>
-            <button id="about-me" className="flex-container button">
+            </Link>
+            <Link to="/about" id="about-me" className="flex-container button">
               About Me
-            </button>
+            </Link>
           </div>
         </section>
         <figure id="hero-profile" className="flex-container"></figure>
@@ -27,10 +33,20 @@ export default function Home() {
 
       <main id="featured-projects-body">
         <h3>Featured Projects</h3>
-        <section id="featured-projects"></section>
-        <button id="view-all-projects" className="flex-container button">
-          View All Projects
-        </button>
+        <section id="featured-projects">
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+        </section>
+        <div id="featured-projects-button" className="flex-container">
+          <Link
+            to="/projects"
+            id="view-all-projects"
+            className="flex-container button"
+          >
+            View All Projects
+          </Link>
+        </div>
       </main>
     </>
   );
