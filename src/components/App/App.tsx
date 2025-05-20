@@ -6,7 +6,7 @@ import About from "../../pages/About/About";
 import Contact from "../../pages/Contact/Contact";
 import Layout from "../Layout/Layout";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Routes>
@@ -20,5 +20,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
