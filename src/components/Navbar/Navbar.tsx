@@ -5,7 +5,7 @@ export default function Navbar() {
   const navItems: string[] = ["Home", "Projects", "About", "Contact"];
 
   return (
-    <header id="header" className="flex-container">
+    <header id="header-nav" className="flex-container">
       <div id="logo" className="flex-container">
         <h3>Usman Khalid</h3>
         <h4>Full Stack Developer | Mathematician</h4>
