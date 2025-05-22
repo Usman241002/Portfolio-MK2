@@ -1,9 +1,16 @@
 import "./Projects.css";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
-export default function Home() {
+export default function Projects() {
   return (
-    <>
-      <h1>Projects</h1>
-    </>
+    <section id="projects-body">
+      {/* Map out from db*/}
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+    </section>
   );
 }

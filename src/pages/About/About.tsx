@@ -1,9 +1,9 @@
 import "./About.css";
 
-export default function Home() {
+export default function About() {
   return (
-    <>
-      <h1>About</h1>
-    </>
+    <section id="body">
+
+    </section>
   );
 }

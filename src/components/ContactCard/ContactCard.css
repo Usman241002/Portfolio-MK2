@@ -1,0 +1,16 @@
+.contact-card {
+  display: flex;
+  height: 3.875rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.contact-card p {
+  color: #000;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

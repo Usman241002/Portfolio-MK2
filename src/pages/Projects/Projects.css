@@ -1,0 +1,10 @@
+#projects-body {
+  display: flex;
+  padding: 3.75rem 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  row-gap: 3.125rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
