@@ -28,7 +28,7 @@
     line-height: normal;
 }
 
-ul {
+#navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@ ul {
     gap: 0.625rem;
 }
 
-li {
+#navbar li {
     display: flex;
     padding: 0.625rem 1.25rem;
     flex-direction: column;
@@ -46,7 +46,7 @@ li {
     gap: 0.625rem;
 }
 
-li a {
+#navbar li a {
     color: #000000;
     font-size: 1rem;
     font-style: normal;
@@ -55,7 +55,7 @@ li a {
     text-decoration: none;
 }
 
-li a.active {
+#navbar li a.active {
     font-weight: bold;
     text-decoration: underline;
 }

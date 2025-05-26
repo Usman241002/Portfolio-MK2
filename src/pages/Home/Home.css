@@ -94,6 +94,7 @@
   align-items: flex-start;
   gap: 2.5rem;
   align-self: stretch;
+  background: #F4F4F9;
 }
 
 #featured-projects-body h3 {

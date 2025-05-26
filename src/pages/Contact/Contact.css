@@ -6,6 +6,7 @@
   align-items: flex-start;
   gap: 3.75rem;
   flex: 1 0 0;
+  background: #F4F4F9;
 }
 
 form {

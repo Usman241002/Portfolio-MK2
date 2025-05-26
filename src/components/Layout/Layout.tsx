@@ -15,10 +15,15 @@ export default function Layout() {
     "/contact": {title: "Contact Me", description: "Get in touch with me for work inquiries or collaborations."}
   }
 
+  const basePath =
+      Object.keys(locationObj)
+        .sort((a, b) => b.length - a.length)
+        .find((key) => location.pathname.startsWith(key)) || "/";
+
   return (
     <>
       <Navbar />
-      {isHome ? "" : <Header title={locationObj[location.pathname].title} description={locationObj[location.pathname].description} />}
+      {isHome ? "" : <Header title={locationObj[basePath].title} description={locationObj[basePath].description} />}
       <Outlet />
       <Footer />
     </>
