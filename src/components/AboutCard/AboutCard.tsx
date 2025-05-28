@@ -1,6 +1,12 @@
 import "./AboutCard.css"
 
-export default function AboutCard({title, subtitle, description}) {
+type props = {
+  title: string;
+  subtitle: string;
+  description: string;
+};
+
+export default function AboutCard({title, subtitle, description}: props) {
   return(
     <div className="about-card">
       <div className="about-card-heading">

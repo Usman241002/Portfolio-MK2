@@ -1,6 +1,11 @@
 import "./Header.css";
 
-export default function Header({ title, description }) {
+type props = {
+  title:string;
+  description:string;
+}
+
+export default function Header({ title, description }:props) {
   return(
     <header id="header">
       <h2>{title}</h2>

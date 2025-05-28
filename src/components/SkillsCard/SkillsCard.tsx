@@ -1,6 +1,11 @@
 import "./SkillsCard.css";
 
-export default function SkillsCard({skillName, imgPath}) {
+type props = {
+  skillName: string;
+  imgPath: string;
+}
+
+export default function SkillsCard({skillName, imgPath}: props) {
   return(
     <section className="skill-card">
       <img src={imgPath} />

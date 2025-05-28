@@ -1,6 +1,10 @@
 import "./TextInput.css";
 
-export default function TextInput({ label }) {
+type props = {
+  label: string;
+}
+
+export default function TextInput({ label }: props) {
   return (
     <div className="text-input">
       <label htmlFor={label}>

@@ -8,7 +8,7 @@ export default function Layout() {
   const location = useLocation();
   const isHome = location.pathname === "/";
 
-  const locationObj = {
+  const locationObj : any = {
     "/": {title: "Home", description: ""},
     "/projects" : {title: "Projects", description: "A selection of personal, academic, and freelance projects I've worked on."},
     "/about": {title: "About Me", description: "A brief history on my personal and academic experience"},
