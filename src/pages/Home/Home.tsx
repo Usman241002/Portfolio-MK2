@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
-//import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import projects from "../../data/projects";
 import "./Home.css";
 
 export default function Home() {
+  const projectsReversed = projects.slice().reverse();
+
   return (
     <>
       <header id="hero" className="flex-container">
@@ -11,7 +14,8 @@ export default function Home() {
             <h2>Hi, I'm...</h2>
             <h1>Usman Khalid</h1>
             <h3>
-              Born to create solutions to complex challenges, driven by a love for mathematics.
+              Born to create solutions to complex challenges, driven by a love
+              for mathematics.
             </h3>
           </section>
           <div id="hero-buttons" className="flex-container">
@@ -33,8 +37,15 @@ export default function Home() {
       <main id="featured-projects-body">
         <h3>Featured Projects</h3>
         <section id="featured-projects">
-          {/* Add arr.map */}
-          {/* Add Featured Projects Here*/}
+          {projectsReversed.slice(0, 3).map((project) => (
+            <ProjectCard
+              key={project.id}
+              id={project.id}
+              title={project.title}
+              description={project.description}
+              imageurl={project.image}
+            />
+          ))}
         </section>
         <div id="featured-projects-button" className="flex-container">
           <Link

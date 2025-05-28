@@ -1,10 +1,10 @@
 #projects-body {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  padding: 3.75rem 2.5rem;
-  gap: 3.125rem;
-  justify-content: space-between;
-  background: #F4F4F9;
-  align-items: start;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 3.75rem 2.5rem;
+    gap: 3.125rem;
+    justify-content: center;
+    background: #f4f4f9;
+    align-items: center;
 }
