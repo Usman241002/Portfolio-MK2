@@ -1,7 +1,7 @@
 import TextInput from "../../components/TextInput/TextInput";
 import ContactCard from "../../components/ContactCard/ContactCard";
 import "./Contact.css";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -33,8 +33,12 @@ export default function Contact() {
             <h4>Connect</h4>
 
             <div id="connect-icons">
-              <Link to="https://www.linkedin.com/in/usman-khalid-dev/" ><img src="Linkedin.svg" /></Link>
-              <Link to="https://github.com/Usman241002/" ><img src="Github.svg" /></Link>
+              <Link to="https://www.linkedin.com/in/usman-khalid-dev/">
+                <img src="images/favicons/Linkedin.svg" />
+              </Link>
+              <Link to="https://github.com/Usman241002/">
+                <img src="images/favicons/Github.svg" />
+              </Link>
             </div>
           </div>
         </section>

@@ -14,7 +14,7 @@ export default function ProjectCard({
   description,
   imageurl,
 }: props) {
-  const base = "src/images/projectImages/";
+  const base = "images/projectImages/";
   return (
     <section className="project-card">
       <Link to={`/projects/${id}`}>

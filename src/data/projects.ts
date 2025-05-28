@@ -11,7 +11,7 @@ const projects: Project[] = [
     title: "Ad & Costsheet Generator",
     description:
       "Designed for efficient ad creation and cost sheet generation.",
-    image: "ad&costsheetgenerator.png",
+    image: "Ad&CostsheetGenerator.png",
   },
   {
     id: 2,
