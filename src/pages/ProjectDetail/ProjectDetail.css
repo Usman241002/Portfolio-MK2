@@ -1,12 +1,19 @@
-.project-details,
-.project-not-found {
+.project-details {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 3.75rem 2.5rem;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 3.75rem;
+    gap: 1.875rem;
     flex: 1 0 0;
     background: #f4f4f9;
+}
+
+.project-details h3 {
+    color: #125a8e;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }

@@ -8,15 +8,10 @@ type props = {
   imageurl: string;
 };
 
-export default function ProjectCard({
-  id,
-  title,
-  description,
-  imageurl,
-}: props) {
+export default function ProjectCard({ title, description, imageurl }: props) {
   const base = "images/projectImages/";
   return (
-    <Link to={`/projects/${id}`} className="project-card">
+    <Link to={`/projects/${title}`} className="project-card">
       <div className="project-img">
         <img src={base + imageurl} alt={title} />
       </div>

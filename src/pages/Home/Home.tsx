@@ -31,7 +31,9 @@ export default function Home() {
             </Link>
           </div>
         </section>
-        <figure id="hero-profile" className="flex-container"></figure>
+        <figure id="hero-profile" className="flex-container">
+          <img src="/images/profilePicture/Subject.png" alt="Profile Picture" />
+        </figure>
       </header>
 
       <main id="featured-projects-body">

@@ -3,24 +3,25 @@ import projects from "../../data/projects";
 import { useParams } from "react-router-dom";
 
 export default function ProjectDetail() {
-  const { id } = useParams();
-  const project = projects.find((p) => p.id === Number(id));
+  const { title } = useParams();
+  const project = projects.find((p) => p.title === title);
 
   if (!project) {
     return (
-      <div className="project-not-found">
-        <h1>Project Not Found</h1>
-        <p>The project with ID {id} does not exist.</p>
+      <div className="project-details">
+        <h3>Project Not Found</h3>
+        <p>The project does not exist.</p>
       </div>
     );
   }
 
   return (
     <div className="project-details">
-      <h1>Project Detail</h1>
-      <p>ID: {id}</p>
-      <p>Project Name: {project.title}</p>
-      <p>Project Description: {project.description}</p>
+      <h3>{project.title}</h3>
+
+      <section id="project-info">
+        <p>{project.description}</p>
+      </section>
     </div>
   );
 }
