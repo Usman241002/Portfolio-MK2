@@ -1,8 +1,9 @@
 import "./ProjectDetail.css";
 import projects from "../../data/projects";
-import { useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
 export default function ProjectDetail() {
+  const navigate = useNavigate();
   const { title } = useParams();
   const project = projects.find((p) => p.title === title);
   const base = "/images/projectImages/";
@@ -17,7 +18,7 @@ export default function ProjectDetail() {
   }
 
   return (
-    <div className="project-body">
+    <div id="project-body">
       <h3>{project.title}</h3>
 
       <section id="project-info">
@@ -28,6 +29,18 @@ export default function ProjectDetail() {
           <img src={base + project.image} alt={project.title} />
         </div>
       </section>
+
+      <div id="project-links">
+        <button className="flex-container button" onClick={() => navigate(-1)}>
+          Back
+        </button>
+        <Link className="icon" to={project.githubLink}>
+          <img
+            src="/images/favicons/Github.svg"
+            alt="Github link to {project.title}"
+          />
+        </Link>
+      </div>
     </div>
   );
 }

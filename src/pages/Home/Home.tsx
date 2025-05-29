@@ -44,7 +44,7 @@ export default function Home() {
               key={project.id}
               id={project.id}
               title={project.title}
-              description={project.description}
+              subtitle={project.subtitle}
               imageurl={project.image}
             />
           ))}

@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 type props = {
   id: number;
   title: string;
-  description: string;
+  subtitle: string;
   imageurl: string;
 };
 
-export default function ProjectCard({ title, description, imageurl }: props) {
+export default function ProjectCard({ title, subtitle, imageurl }: props) {
   const base = "images/projectImages/";
   return (
     <Link to={`/projects/${title}`} className="project-card">
@@ -17,7 +17,9 @@ export default function ProjectCard({ title, description, imageurl }: props) {
       </div>
       <div className="project-info">
         <h4>{title}</h4>
-        <p>{description}</p>
+        <p>
+          <i>{subtitle}</i>
+        </p>
       </div>
     </Link>
   );

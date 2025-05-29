@@ -12,7 +12,7 @@ export default function Projects() {
           key={project.id}
           id={project.id}
           title={project.title}
-          description={project.description}
+          subtitle={project.subtitle}
           imageurl={project.image}
         />
       ))}

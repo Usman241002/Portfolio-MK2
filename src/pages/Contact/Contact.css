@@ -108,11 +108,3 @@ form textarea {
     align-items: flex-start;
     gap: 1.25rem;
 }
-
-.icon {
-    transition: transform 0.1s ease-in;
-}
-
-.icon:hover {
-    transform: scale(1.1);
-}
