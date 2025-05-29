@@ -28,6 +28,10 @@
     line-height: normal;
 }
 
+#menuIcon {
+    display: none;
+}
+
 #navbar ul {
     list-style-type: none;
     margin: 0;
@@ -58,4 +62,20 @@
 #navbar li a.active {
     font-weight: bold;
     text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    #logo h4 {
+        display: none;
+    }
+
+    #menuIcon {
+        display: flex;
+        cursor: pointer;
+        font-size: 30px;
+    }
+
+    #navbar {
+        display: none;
+    }
 }

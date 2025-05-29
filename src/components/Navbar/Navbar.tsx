@@ -10,6 +10,7 @@ export default function Navbar() {
         <h3>Usman Khalid</h3>
         <h4>Full Stack Developer | Mathematician</h4>
       </div>
+      <div id="menuIcon"> {/* add onclick and state */}☰</div>
       <nav id="navbar" className="flex-container">
         <ul>
           {navItems.map((item) => (

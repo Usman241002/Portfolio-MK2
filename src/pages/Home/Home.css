@@ -31,7 +31,7 @@
 
 #hero-text h1 {
     color: #fff;
-    font-size: 8.75rem;
+    font-size: 8rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -159,4 +159,29 @@
 
 #view-all-projects:hover {
     background-color: #0e4871;
+}
+
+@media (max-width: 800px) {
+    #hero {
+        gap: 3rem;
+        flex-direction: column-reverse;
+    }
+
+    #hero-contents {
+        align-items: center;
+    }
+
+    #hero-text {
+        align-items: center;
+    }
+
+    #hero-text h1,
+    #hero-text h2,
+    #hero-text h3 {
+        text-align: center;
+    }
+
+    #featured-projects-body {
+        align-items: center;
+    }
 }

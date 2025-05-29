@@ -12,3 +12,9 @@
     font-weight: 200;
     line-height: normal;
 }
+
+@media (max-width: 800px) {
+    #footer p {
+        text-align: center;
+    }
+}
