@@ -1,105 +1,118 @@
 #contacts-body {
-  width: 100%;
-  display: flex;
-  padding: 3.75rem 2.5rem;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 3.75rem;
-  flex: 1 0 0;
-  background: #F4F4F9;
+    width: 100%;
+    display: flex;
+    padding: 3.75rem 2.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3.75rem;
+    flex: 1 0 0;
+    background: #f4f4f9;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1.875rem;
-  flex: 1 0 0;
-  width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+    flex: 1 0 0;
+    width: 50%;
 }
 
 h3 {
-  color: #125A8E;
-  font-size: 1.875rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    color: #125a8e;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 #text-area {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.3125rem;
-  align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3125rem;
+    align-self: stretch;
 }
 
 form textarea {
-  resize: none;
-  height: 9.375rem;
-  align-self: stretch;
-  border-radius: 0.625rem;
-  border: 1px solid #000;
-  background: #F4F4F9;
-  font-size: 1rem;
-  padding: 0.875rem;
-  width: 100%;
+    resize: none;
+    height: 9.375rem;
+    align-self: stretch;
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #f4f4f9;
+    font-size: 1rem;
+    padding: 0.875rem;
+    width: 100%;
 }
 
 #sendMessageButton {
-  display: flex;
-  height: 3.75rem;
-  padding: 0.625rem 1.5625rem;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-  align-self: stretch;
-  border-radius: 0.625rem;
-  background: #125A8E;
-  color: #FFF;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    display: flex;
+    height: 3.75rem;
+    padding: 0.625rem 1.5625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 0.625rem;
+    background: #125a8e;
+    color: #fff;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#sendMessageButton:hover {
+    cursor: pointer;
+    background-color: #0e4871;
 }
 
 #contact-information {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1.875rem;
-  flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+    flex: 1 0 0;
 }
 
 #contact-info {
-  display: flex;
-  padding: 1.875rem 1.25rem;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1.875rem;
-  align-self: stretch;
-  border-radius: 0.625rem;
-  background: #E8E8ED;
+    display: flex;
+    padding: 1.875rem 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+    align-self: stretch;
+    border-radius: 0.625rem;
+    background: #e8e8ed;
 }
 
 #contact-info h4 {
-  color: #125A8E;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    color: #125a8e;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 #connect-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.25rem;
 }
 
 #connect-icons {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.25rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.icon {
+    transition: transform 0.1s ease-in;
+}
+
+.icon:hover {
+    transform: scale(1.1);
 }

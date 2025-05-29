@@ -1,9 +1,9 @@
 #hero {
-  display: flex;
-  width: 100%;
-  background-color: #125a8e;
-  justify-content: space-between;
-  padding: 3.75rem 2.5rem;
+    display: flex;
+    width: 100%;
+    background-color: #125a8e;
+    justify-content: space-between;
+    padding: 3.75rem 2.5rem;
 }
 
 #hero-contents {
@@ -62,6 +62,10 @@
     text-decoration: none;
 }
 
+#view-projects:hover {
+    background-color: #d4d4dd;
+}
+
 #about-me {
     border: 1px solid #fff;
     background: #125a8e;
@@ -71,6 +75,10 @@
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+}
+
+#about-me:hover {
+    background-color: #0e4871;
 }
 
 .button {
@@ -89,13 +97,13 @@
 }
 
 #featured-projects-body {
-  display: flex;
-  padding: 3.75rem 2.5rem;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2.5rem;
-  align-self: stretch;
-  background: #F4F4F9;
+    display: flex;
+    padding: 3.75rem 2.5rem;
+    flex-direction: column;
+    align-items: start;
+    gap: 2.5rem;
+    align-self: stretch;
+    background: #f4f4f9;
 }
 
 #featured-projects-body h3 {
@@ -115,7 +123,7 @@
     display: flex;
     padding: 0.625rem 0rem;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     gap: 3.125rem;
     align-self: stretch;
@@ -138,4 +146,8 @@
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+}
+
+#view-all-projects:hover {
+    background-color: #0e4871;
 }

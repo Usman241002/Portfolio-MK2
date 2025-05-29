@@ -33,10 +33,13 @@ export default function Contact() {
             <h4>Connect</h4>
 
             <div id="connect-icons">
-              <Link to="https://www.linkedin.com/in/usman-khalid-dev/">
+              <Link
+                className="icon"
+                to="https://www.linkedin.com/in/usman-khalid-dev/"
+              >
                 <img src="images/favicons/Linkedin.svg" />
               </Link>
-              <Link to="https://github.com/Usman241002/">
+              <Link className="icon" to="https://github.com/Usman241002/">
                 <img src="images/favicons/Github.svg" />
               </Link>
             </div>
