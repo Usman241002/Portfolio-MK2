@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 export default function ProjectDetail() {
   const { title } = useParams();
   const project = projects.find((p) => p.title === title);
+  const base = "/images/projectImages/";
 
   if (!project) {
     return (
@@ -16,11 +17,16 @@ export default function ProjectDetail() {
   }
 
   return (
-    <div className="project-details">
+    <div className="project-body">
       <h3>{project.title}</h3>
 
       <section id="project-info">
-        <p>{project.description}</p>
+        <div id="project-details">
+          <p>{project.description}</p>
+        </div>
+        <div id="project-image">
+          <img src={base + project.image} alt={project.title} />
+        </div>
       </section>
     </div>
   );
